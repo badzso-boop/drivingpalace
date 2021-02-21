@@ -5,9 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
     <title>Driving Peace</title>
 </head>
 <body>
+    <div class = "csik">
+            <img src="anto.gif" alt="ez egy gif :)" id = "suzuki">
+    </div>
+    <div class="menu-btn">
+        <div class="menu-btn__burger"></div>
+    </div>
     <nav class = "navbar">
         <ul id="list">
             <li id="listitem">
@@ -26,73 +34,29 @@
                 <a id="link" href="#">Fórum</a>
             </li>
         </ul>
+        <div class="oracsoport">
+            <div id="speedometer">
+                <div style="display: none;"><img id="sprite" src="assets/icons.svg"></div>
+                <canvas id="canvas" width="425" height="210"></canvas>
+            </div>
+            <script src="js/fraction.min.js"></script>
+            <script src="js/speedometer.js"></script>
+            <script src="js/sebesseg.js"></script>
+        </div>
     </nav>
 
-    <main>
-        <div class = "main-content">
-            <div class = "content">
-                <h1 class = "content-title">Sample</h1>
-                <img src="road.jpg" alt="sample" class = "content-image">
-                <!--max 155 character-->
-                <p class = "content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
-                    pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus.</p>
-                <a href="#" class = "read-more">Olvass tovább</a>
-            </div>
-            <div class = "content">
-                <h1 class = "content-title">Sample</h1>
-                <img src="road.jpg" alt="sample" class = "content-image">
-                
-                <p class = "content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
-                    pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus.</p>
-                <a href="#" class = "read-more">Olvass tovább</a>
-            </div>
-            <div class = "content">
-                <h1 class = "content-title">Sample</h1>
-                <img src="road.jpg" alt="sample" class = "content-image">
-                <p class = "content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
-                    pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus.</p>
-                <a href="#" class = "read-more">Olvass tovább</a>
-            </div>
-            <div class = "content">
-                <h1 class = "content-title">Sample</h1>
-                <img src="road.jpg" alt="sample" class = "content-image">
-                <p class = "content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
-                    pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus.</p>
-                <a href="#" class = "read-more">Olvass tovább</a>
-            </div>
-            <div class = "content">
-                <h1 class = "content-title">Sample</h1>
-                <img src="road.jpg" alt="sample" class = "content-image">
-                <p class = "content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
-                    pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus.</p>
-                <a href="#" class = "read-more">Olvass tovább</a>
-            </div>
-            <div class = "content">
-                <h1 class = "content-title">Sample</h1>
-                <img src="road.jpg" alt="sample" class = "content-image">
-                <p class = "content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
-                    pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus.</p>
-                <a href="#" class = "read-more">Olvass tovább</a>
-            </div>
-            <div class = "content">
-                <h1 class = "content-title">Sample</h1>
-                <img src="road.jpg" alt="sample" class = "content-image">
-                <p class = "content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
-                    pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus.</p>
-                <a href="#" class = "read-more">Olvass tovább</a>
-            </div>
-            <div class = "content">
-                <h1 class = "content-title">Sample</h1>
-                <img src="road.jpg" alt="sample" class = "content-image">
-                <p class = "content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
-                    pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus.</p>
-                <a href="#" class = "read-more">Olvass tovább</a>
-            </div>
+    <main class = "main">
+        <div class="left">
+            <h1>Regisztráció</h1>
         </div>
-        <div id = "controll">
-            <a href="#" id = "previous">Előző</a>
-            <a href="#" id = "next">Következő</a>
+        <div class="right">
+            <h1>Belépés</h1>
+            <label for="Uname">Felhasználónév</label>
+            <input type="text" name = "Uname">
+            <label for="pwd">Jelszó:</label>
+            <input type="password" name = "pwd">
         </div>
     </main>
+    <script src="js/main.js"></script>
 </body>
 </html>
