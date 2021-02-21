@@ -145,7 +145,7 @@ table {
 .navbar
 {
     float: left;
-    width: 18%;
+    width: 25%;
     height: 94vh;
     background-color: #000;
     text-align: center;
@@ -189,6 +189,7 @@ table {
 {
     position: absolute;
     bottom: 1vh;
+    margin: 0 auto;
 }
 
 /*----- Main Content -----*/
@@ -217,62 +218,31 @@ main
     z-index: -1;
 }
 
-.main-content
-{
-    width: 95%;
-    height: 85%;
-    margin: 3% auto;
-    text-align: center;
-}
-
-.content
-{
-    display: inline-block;
-    height: 22rem;
-    min-width: 273px;
-    max-width: 273px;
-    margin: 0.75rem;
-    padding: 15px;
-    border: 1.5px solid;
-    border-radius: 25px;
-    background-color: rgb(97, 97, 97);
-}
-
-.content-title
-{
-    text-align: center;
-    font-size: 36px;
-    margin: 15px;
-}
-
-.content-image
-{
-    width: 15rem;
-    margin-bottom: 1rem;
-}
-
-.content-p
-{
-    word-wrap: break-word;
-    text-align: left;
-    margin: 15px 0px 25px 0px;
-}
-
-.read-more
+.form
 {
     border: 1px solid;
-    border-radius: 15px;
-    padding: 10px;
-    margin: auto;
-    color: black;
-    text-decoration: none;
-    transition: 1s ease-in-out;
-    font-weight: bold;
 }
 
-.read-more:hover
+.form-h1
 {
-    background-color: rgba(50, 230, 100, 0.3);
+    text-align: center;
+}
+
+.form-form
+{
+    text-align: center;
+}
+
+.form-input
+{
+    width: 50%;
+    display: list-item;
+    margin: 0.5rem auto;
+}
+
+.form-button
+{
+
 }
 
 /*----- Controll -----*/
