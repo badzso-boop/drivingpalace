@@ -15,6 +15,7 @@
 </head>
 <body>
     <div class = "csik">
+            <img title="A Driving Palace Logoja" id="logo" alt="A Driving Palace Logoja" src="logo.png">
             <img src="anto.gif" alt="ez egy gif :)" id = "suzuki">
     </div>
     <div class="menu-btn">
@@ -53,16 +54,16 @@
         </div>
     </nav>
 
-    <main class = "main">
+    <main class = "main kicsi">
         <div class="register">
-        <h1>Regisztráció</h1>
-            <form action="includes/signup.inc.php" method="post">
-            <input type="text" name="name" placeholder="Teljes Név...">
-            <input type="text" name="email" placeholder="Email...">
-            <input type="text" name="uid" placeholder="Felhasználónév...">
-            <input type="password" name="pwd" placeholder="Jelszó...">
-            <input type="password" name="pwdrepeat" placeholder="Jelszó Újra...">
-            <button type="submit" name="submit">Regisztráció</button>
+            <form action="includes/signup.inc.php" method="post" class = "form-form">
+                <h1 class="form-h1">Regisztráció</h1>
+                <input class="form-input" type="text" name="name" placeholder="Teljes Név">
+                <input class="form-input" type="text" name="email" placeholder="Email">
+                <input class="form-input" type="text" name="uid" placeholder="Felhasználónév">
+                <input class="form-input" type="password" name="pwd" placeholder="Jelszó">
+                <input class="form-input" type="password" name="pwdrepeat" placeholder="Jelszó Újra">
+                <button type="submit" name="submit" class="form-button">Regisztrálok!</button>
             </form>
         </div>
         <?php

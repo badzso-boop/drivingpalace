@@ -15,6 +15,7 @@
 </head>
 <body>
     <div class = "csik">
+            <img title="A Driving Palace Logoja" id="logo" alt="A Driving Palace Logoja" src="logo.png">
             <img src="anto.gif" alt="ez egy gif :)" id = "suzuki">
     </div>
     <div class="menu-btn">
@@ -53,14 +54,14 @@
         </div>
     </nav>
 
-    <main class = "main">
+    <main class = "main kicsi">
         <div class="form">
-            <h1 class = "form-h1">Belépés</h1>
             <form action="includes/login.inc.php" method = "post" class = "form-form">
+                <h1 class = "form-h1">Belépés</h1>
                 <input class = "form-input" type="text" name = "uid" placeholder="Felhasználónév">
-                <input class = "form-input" type="password" name = "pwd" placeholder="jelszó">
+                <input class = "form-input" type="password" name = "pwd" placeholder="Jelszó">
                 <br>
-                <button class = "form-button" type = "submit" name = "submit">Belépés</button>
+                <button class = "form-button" type = "submit" name = "submit">Belépek!</button>
             </form>
         </div>
         <?php 
