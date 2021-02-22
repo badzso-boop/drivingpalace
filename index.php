@@ -15,6 +15,7 @@
 </head>
 <body>
     <div class = "csik">
+            <img src="logo.png" alt="Logo" id="logo" title="Driving Palace">
             <img src="anto.gif" alt="ez egy gif :)" id = "suzuki">
     </div>
     <div class="menu-btn">
@@ -54,7 +55,11 @@
     </nav>
 
     <main class = "main">
-        
+        <div class="about">
+            <h1>Lajos vagyok szia!</h1>
+            <p id = "fooldal-szov">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit nisi id tortor mollis bibendum. Sed ut neque et sem rutrum suscipit. Nulla in semper elit, et accumsan sapien. Vivamus et est et ipsum luctus ultrices eu ut tortor. In sapien ex, pretium eget orci at, faucibus aliquet tellus. Nulla at varius justo, sed volutpat nulla. Integer sed quam ornare, tempus elit non, lacinia neque. Vestibulum posuere a eros tincidunt luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit nisi id tortor mollis bibendum. Sed ut neque et sem rutrum suscipit. Nulla in semper elit, et accumsan sapien. Vivamus et est et ipsum luctus ultrices eu ut tortor. In sapien ex, pretium eget orci at, faucibus aliquet tellus. Nulla at varius justo, sed volutpat nulla. Integer sed quam ornare, tempus elit non, lacinia neque. Vestibulum posuere a eros tincidunt luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit nisi id tortor mollis bibendum. Sed ut neque et sem rutrum suscipit. Nulla in semper elit, et accumsan sapien. Vivamus et est et ipsum luctus ultrices eu ut tortor. In sapien ex, pretium eget orci at, faucibus aliquet tellus. Nulla at varius justo, sed volutpat nulla. Integer sed quam ornare, tempus elit non, lacinia neque. Vestibulum posuere a eros tincidunt luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit nisi id tortor mollis bibendum. Sed ut neque et sem rutrum suscipit. Nulla in semper elit, et accumsan sapien. Vivamus et est et ipsum luctus ultrices eu ut tortor. In sapien ex, pretium eget orci at, faucibus aliquet tellus. Nulla at varius justo, sed volutpat nulla. Integer sed quam ornare, tempus elit non, lacinia neque. Vestibulum posuere a eros tincidunt luctus.</p>
+            <p id="fooldal-footer">2021 - Ujj Norbert</p>
+        </div>
     </main>
     <script src="js/main.js"></script>
 </body>
