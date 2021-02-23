@@ -17,6 +17,8 @@ menuBtn.addEventListener('click', () => {
 });
 
 // ennek megforditasa megjelenesnel?
+//sajat font?
+//css color themes
 
 menuBtn.addEventListener('click', function () {
   

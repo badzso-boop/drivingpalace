@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
-    <title>Driving Peace</title>
+    <title>Driving Palace</title>
 </head>
 <body>
     <div class = "csik">
+        <span id="aktualis">Főoldal</span>
         <img title="A Driving Palace Logoja" id="logo" alt="A Driving Palace Logoja" src="logo.png">
         <img src="anto.gif" alt="ez egy gif :)" id = "suzuki">
     </div>
@@ -56,7 +57,7 @@
 
     <main class = "main" id="main">
         <div class="about">
-            <h1>Lajos vagyok szia!</h1>
+            <h1>Üdvözöllek a <span id="colored">Driving Palace</span> oldalán!</h1>
             <p id = "fooldal-szov">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit nisi id tortor mollis bibendum. Sed ut neque et sem rutrum suscipit. Nulla in semper elit, et accumsan sapien. Vivamus et est et ipsum luctus ultrices eu ut tortor. In sapien ex, pretium eget orci at, faucibus aliquet tellus. Nulla at varius justo, sed volutpat nulla. Integer sed quam ornare, tempus elit non, lacinia neque. Vestibulum posuere a eros tincidunt luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit nisi id tortor mollis bibendum. Sed ut neque et sem rutrum suscipit. Nulla in semper elit, et accumsan sapien. Vivamus et est et ipsum luctus ultrices eu ut tortor. In sapien ex, pretium eget orci at, faucibus aliquet tellus. Nulla at varius justo, sed volutpat nulla. Integer sed quam ornare, tempus elit non, lacinia neque. Vestibulum posuere a eros tincidunt luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit nisi id tortor mollis bibendum. Sed ut neque et sem rutrum suscipit. Nulla in semper elit, et accumsan sapien. Vivamus et est et ipsum luctus ultrices eu ut tortor. In sapien ex, pretium eget orci at, faucibus aliquet tellus. Nulla at varius justo, sed volutpat nulla. Integer sed quam ornare, tempus elit non, lacinia neque. Vestibulum posuere a eros tincidunt luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit nisi id tortor mollis bibendum. Sed ut neque et sem rutrum suscipit. Nulla in semper elit, et accumsan sapien. Vivamus et est et ipsum luctus ultrices eu ut tortor. In sapien ex, pretium eget orci at, faucibus aliquet tellus. Nulla at varius justo, sed volutpat nulla. Integer sed quam ornare, tempus elit non, lacinia neque. Vestibulum posuere a eros tincidunt luctus.</p>
             <p id="fooldal-footer">2021 - Ujj Norbert</p>
         </div>

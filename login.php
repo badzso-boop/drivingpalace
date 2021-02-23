@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
-    <title>Driving Peace</title>
+    <title>Driving Palace</title>
 </head>
 <body>
     <div class = "csik">
+            <span id="aktualis">Belépés</span>
             <img title="A Driving Palace Logoja" id="logo" alt="A Driving Palace Logoja" src="logo.png">
             <img src="anto.gif" alt="ez egy gif :)" id = "suzuki">
     </div>
@@ -29,7 +30,7 @@
                     echo "<li id = 'listitem'><a id = 'link' href='logout.php'>Kilépés</a></li>";
                 }
                 else {
-                    echo "<li id='listitem'><a id='link' href='login.php'>Belépés</a></li>";
+                    echo "<li id='listitem'><a id='link' href='index.php'>Főoldal</a></li>";
                     echo "<li id='listitem'><a id='link' href='signup.php'>Regisztráció</a></li>";
                 }
             ?>
