@@ -151,12 +151,19 @@ table {
 #logo
 {
     z-index: 0;
-    width: 15%;
+    width: 15vw;
+    line-height: 6vh;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0 auto;
+    font-size: 2rem;
+    font-family: Audiowide, sans-serif !important;
+    color: white;
+    text-align: center;
+    background-color: rgba(26,26,26,0.7);
+    border-radius: 50px;
 }
 
 #suzuki
@@ -289,8 +296,10 @@ main
 {
     /*color: #D93848; */
     color: lightgray;
-    padding: 0px 2px;
+    padding: 0px 5px;
     background-image: linear-gradient(-100deg, rgba(255,255,255,0), #D93848 100%, rgba(255,255,255,0) 0%);
+    border-radius: 5px;
+    font-family: Audiowide, sans-serif !important;
 }
 
 #fooldal-szov

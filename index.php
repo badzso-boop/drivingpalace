@@ -11,12 +11,16 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
-    <title>Driving Palace</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Driving Palace - Főoldal</title>
 </head>
 <body>
     <div class = "csik">
         <span id="aktualis">Főoldal</span>
-        <img title="A Driving Palace Logoja" id="logo" alt="A Driving Palace Logoja" src="logo.png">
+        <span id="logo">Driving Palace.</span>
+        <!--<img title="A Driving Palace Logoja" id="logo" alt="A Driving Palace Logoja" src="logo.png">-->
         <img src="anto.gif" alt="ez egy gif :)" id = "suzuki">
     </div>
     <div class="menu-btn">
