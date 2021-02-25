@@ -418,3 +418,10 @@ main
 .visuallyhidden {
     opacity: 0;
   }
+
+/*---- Utvonalak ----*/
+
+.lista
+{
+    border: 2px solid white;
+}
