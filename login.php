@@ -38,7 +38,7 @@
                 }
             ?>
             <li id="listitem">
-                <a id="link" href="#">Útvonalak</a>
+                <a id="link" href="utvonalak.php">Útvonalak</a>
             </li>
             <li id="listitem">
                 <a id="link" href="#">Helyszínek</a>
