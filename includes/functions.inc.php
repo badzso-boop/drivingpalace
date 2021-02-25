@@ -106,6 +106,41 @@ function emptyInputLogin($username, $pwd) {
 	return $result;
 }
 
+//Check if en empty input for UTAK
+function emptyUtak($cim, $leiras)
+{
+	$result;
+	if(empty($cim) || empty($leiras))
+	{
+		$result = true;
+	} else 
+	{
+		$result = false;
+	}
+	return $result;
+}
+
+//Upload the UTAK
+function uploadUt($conn, $cim, $leiras, $userID, $date, $fileActualExt ,$allapot)
+{
+	//$sql = "INSERT INTO users (usersName, usersEmail, usersUid, usersPwd) VALUES (?, ?, ?, ?);";
+	//$sql = "INSERT INTO utvonalak (cim, leiras, kreator, allapot) VALUES (?, ?, ?, ?);";
+	$sql = "INSERT INTO utvonalak (cim, leiras, kreator, datum, kiterjesztes, allapot) VALUES ('$cim', '$leiras', '$userID', '$date', '$fileActualExt' ,'$allapot');";
+
+	$stmt = mysqli_stmt_init($conn);
+	if (!mysqli_stmt_prepare($stmt, $sql)) {
+	 	header("location: ../utvonalak.php?error=stmtfailed");
+		exit();
+	}
+
+	mysqli_stmt_bind_param($stmt, "ssssss", $cim, $leiras, $userID, $date, $fileActualExt,$allapot);
+	mysqli_stmt_execute($stmt);
+	mysqli_stmt_close($stmt);
+	mysqli_close($conn);
+	header("location: ../utvonalak.php?error=none");
+	exit();
+}
+
 // Log user into website
 function loginUser($conn, $username, $pwd) {
 	$uidExists = uidExists($conn, $username);
