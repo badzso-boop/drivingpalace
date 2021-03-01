@@ -73,25 +73,25 @@
         <?php
             if (isset($_GET["error"])) {
                 if ($_GET["error"] == "emptyinput") {
-                echo "<p>Kérlek töltsd ki az összes mezőt!</p>";
+                echo "<p id = 'popup'>Kérlek töltsd ki az összes mezőt!</p>";
                 }
                 else if ($_GET["error"] == "invaliduid") {
-                echo "<p>Válassz egy másik felhasználónevet!</p>";
+                echo "<p id = 'popup'>Válassz egy másik felhasználónevet!</p>";
                 }
                 else if ($_GET["error"] == "invalidemail") {
-                echo "<p>Válassz egy helyes email címet!</p>";
+                echo "<p id = 'popup'>Válassz egy helyes email címet!</p>";
                 }
                 else if ($_GET["error"] == "passwordsdontmatch") {
-                echo "<p>A jelszavak nem egyeznek!</p>";
+                echo "<p id = 'popup'>A jelszavak nem egyeznek!</p>";
                 }
                 else if ($_GET["error"] == "stmtfailed") {
-                echo "<p>Valami hiba történt!</p>";
+                echo "<p id = 'popup'>Valami hiba történt!</p>";
                 }
                 else if ($_GET["error"] == "usernametaken") {
-                echo "<p>Felhasználónév foglalt!</p>";
+                echo "<p id = 'popup'>Felhasználónév foglalt!</p>";
                 }
                 else if ($_GET["error"] == "none") {
-                echo "<p>SIkeresen beregisztráltál!</p>";
+                echo "<p id = 'popup'>SIkeresen beregisztráltál!</p>";
                 }
             }
         ?>

@@ -47,7 +47,6 @@ if (isset($_POST['submit'])) {
           // Now we upload the file!
           move_uploaded_file($fileTmpName, $fileDestination);
           // And send the user back to the front page
-          header("Location: ../index.php?upload=success");
         }
         else {
           echo "A fájlod túl nagy!";

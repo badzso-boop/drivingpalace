@@ -71,10 +71,10 @@
         <?php 
             if(isset($_GET["error"])) {
                 if ($_GET["error"] == "emptyinput") {
-                    echo "<p>Töltsd ki az összes mezőt!</p>";
+                    echo "<p id='popup'>Töltsd ki az összes mezőt!</p>";
                 }
                 else if ($_GET["error"] == "wronglogin") {
-                    echo "<p>Sikertelen belépés!</p>";
+                    echo "<p id = 'popup'>Sikertelen belépés!</p>";
                 }
             }
         ?>

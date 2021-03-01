@@ -1,5 +1,5 @@
 <?php
-
+include_once 'dbh.inc.php';
 // Check for empty input signup
 function emptyInputSignup($name, $email, $username, $pwd, $pwdRepeat) {
 	$result;
@@ -133,7 +133,7 @@ function uploadUt($conn, $cim, $leiras, $userID, $date, $fileActualExt ,$allapot
 		exit();
 	}
 
-	mysqli_stmt_bind_param($stmt, "ssssss", $cim, $leiras, $userID, $date, $fileActualExt,$allapot);
+	mysqli_stmt_bind_param($stmt, 'ssssss', $cim, $leiras, $userID, $date, $fileActualExt,$allapot);
 	mysqli_stmt_execute($stmt);
 	mysqli_stmt_close($stmt);
 	mysqli_close($conn);
